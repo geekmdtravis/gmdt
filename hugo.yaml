@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://geekmd.io/"
+title: geekmdtravis
 pagination:
   paperSize: 5
 theme: PaperMod
@@ -17,8 +17,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: geekmdtravis
   description: "Deep learning, software engineering, and medicine."
-  keywords:
-    [
+  keywords: [
       deep learning,
       softare engineering,
       medicine,
@@ -26,6 +25,7 @@ params:
       dl,
       ml,
       ai,
+      .com
       artificial intelligence,
       internal medicine,
     ]
@@ -69,8 +69,8 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
+    title: geekmdtravis
+    subtitle: "Deep learning, software engineering, and medicine."
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
@@ -91,7 +91,8 @@ params:
       url: "https://x.com/geekmdtravis"
     - name: github
       url: "https://github.com/geekmdtravis"
-
+    - name: linkedin
+      url: "https://www.linkedin.com/in/geekmdtravis/"
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -106,7 +107,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/geekmdtravis/gmdt/content"
+    URL: "https://github.com/geekmdtravis/gmdt/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -131,6 +132,10 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: about
+      name: about
+      url: /about
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

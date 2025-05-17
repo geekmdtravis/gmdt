@@ -18,7 +18,7 @@ After using [@cursor_ai](https://x.com/cursor_ai) for several months, I'm going 
 
 **Fewer Conflicts With the Neovim Plugin**
 
-While Curosor is a VSCode fork, there are simply far more negative interactions with the neovim plugin. The primary issue surrounds primary key bindings.
+While Cursor is a VSCode fork, there are simply far more negative interactions with the Neovim plugin. The primary issue surrounds primary key bindings. And, while I primarily use NeoVim proper these days, when I do have to do work in an editor like VSCode, I still prefer the Vim motions.
 
 **Copilot Subscription is Much Cheaper**
 
@@ -26,6 +26,6 @@ The copilot subscription is left than half the price, and far more versatile. Yo
 
 **Cursor Auto-Complete Promotes a Passenger-Like Dev Experience**
 
-Cursor is impressive, but perhaps a bit too impressive. You can just tab endlesslessy and end up flying all over the page. After the shock and awe settle, you realize that rather than improving your productivity you're just getting lost in the head-spinning experience.
+Cursor is impressive, but perhaps a bit too impressive. You can just tab endlessly and end up flying all over the page. After the shock and awe settle, you realize that rather than improving your productivity, you’re just getting lost in the head-spinning experience.
 
-While some ~~may~~ assuredly will disagree, I believe that at present the goldilocks zone for software engineering is in asking architect's to evaluate your code and give suggestions, plus limited use of LLM-guided auto-complete and generated code.
+While some ~~may~~ will assuredly disagree, I believe that at present, the Goldilocks zone for software engineering is in asking architects to evaluate your code and give suggestions, plus limited use of LLM-guided auto-complete and generated code.
