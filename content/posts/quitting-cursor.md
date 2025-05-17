@@ -22,7 +22,7 @@ While Cursor is a VSCode fork, there are simply far more negative interactions w
 
 **Copilot Subscription is Much Cheaper**
 
-The copilot subscription is left than half the price, and far more versatile. You can use it with Cline directly, and indirectly with Aider via the copilot-proxy plugin. You can also connect it to several NeoVim extensions.
+The copilot subscription is less than half the price, and far more versatile. You can use it with Cline directly, and indirectly with Aider via the copilot-proxy plugin. You can also connect it to several NeoVim extensions.
 
 **Cursor Auto-Complete Promotes a Passenger-Like Dev Experience**
 
