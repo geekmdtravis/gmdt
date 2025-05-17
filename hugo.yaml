@@ -1,4 +1,4 @@
-baseURL: "https://geekmd.io/"
+baseURL: "https://geekmdtravis.github.io/gmdt"
 title: geekmdtravis
 pagination:
   paperSize: 5
