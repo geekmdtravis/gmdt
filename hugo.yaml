@@ -2,7 +2,7 @@ baseURL: "https://geekmd.io/"
 title: geekmdtravis
 pagination:
   paperSize: 5
-theme: PaperMod
+theme: papermod
 
 enableRobotsTXT: true
 buildDrafts: false
