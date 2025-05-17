@@ -5,7 +5,7 @@ draft: false
 description: "A brief introduction to the author of this website and blog, Travis Nesbit."
 tags:
   ["post", "introduction", "hobbies", "medicine", "software engineering", "ai"]
-categories: ["Tech", "Tutorials"]
+categories: ["Introductions"]
 author: "Travis Nesbit"
 lastmod: 2025-05-16
 ---

@@ -1,6 +1,6 @@
 ---
 date: "2025-05-16T22:40:23-07:00"
-draft: true
+draft: false
 title: "Quitting Cursor"
 tags:
   [
