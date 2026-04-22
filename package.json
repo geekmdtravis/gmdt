@@ -1,0 +1,25 @@
+{
+  "name": "gmdt",
+  "version": "0.1.0",
+  "description": "Personal website of geekmd (Travis Nesbit, MD)",
+  "homepage": "https://github.com/geekmdtravis/gmdt#readme",
+  "bugs": {
+    "url": "https://github.com/geekmdtravis/gmdt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekmdtravis/gmdt.git"
+  },
+  "license": "ISC",
+  "author": "Travis Nesbit, MD",
+  "scripts": {
+    "build": "hugo --minify",
+    "start": "hugo server"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.149.2"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
+  }
+}
