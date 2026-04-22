@@ -26,7 +26,7 @@ If you're a clinician who suspects there's a better way to spend your career, an
 
 Undergrad in biology. UC Irvine School of Medicine, class of 2013. Internal medicine residency completed in 2016. ABIM-certified, licensed by the Medical Board of California. I liked *medicine*; I did not like working inside the medical industry. So I taught myself software engineering and have been looking for ways to improve care at scale ever since.
 
-Today I'm the lead software engineer for my team at the California Correctional Health Care Services, Headquarters, Medical Services Division — though my official state title is still **Physician & Surgeon**. I'm wrapping up an MSCS at Georgia Tech and doing health-AI research in the Madabhushi lab at Emory. I still see patients in half-day clinics to keep my clinical instincts alive; they make me a better engineer in this domain, not a worse one.
+Today I'm the lead software engineer for my team at the California Correctional Health Care Services, Headquarters, Medical Services Division — though my official state title is still **Physician & Surgeon**. My day-to-day specialty is building web applications that extend the Cerner PowerChart environment, which is exactly as interesting and as cursed as it sounds. I'm also wrapping up an MSCS at Georgia Tech, splitting the program roughly evenly between the AI and systems specializations and finalizing both, and doing health-AI research in the Madabhushi lab at Emory. I still see patients in half-day clinics to keep my clinical instincts alive; they make me a better engineer in this domain, not a worse one.
 
 ## What I believe, briefly
 
@@ -40,7 +40,7 @@ American medicine is in a bad state despite spending more per capita than anywhe
 
 ### Software engineering
 
-Software engineering is one of the best jobs on earth once you get past the initial cliff, and AI-assisted tooling has made the cliff shorter without making the peak lower. I'll write about my setup (NeoVim, Linux, the usual heresies), the tools I actually reach for, and the mistakes I keep making so you don't have to.
+Software engineering is one of the best jobs on earth once you get past the initial cliff, and AI-assisted tooling has made the cliff shorter without making the peak lower. My professional work lives in web applications layered on top of an EHR, but my interests run further down the stack — operating systems, distributed systems, and the lower-level machinery I'm deep in for the systems half of my MSCS. Expect posts on my setup (NeoVim, Linux, the usual heresies), the tools I actually reach for, and the occasional dive into something well below the application layer.
 
 ## What's next
 
@@ -50,5 +50,7 @@ Posts I'm planning, in no particular order:
 - What a clinician-engineer actually does day-to-day inside a state health system.
 - An honest field report on the AI coding assistants I've used in anger.
 - Notes from the Madabhushi lab: what computational pathology is teaching me about medicine.
+- Building inside Cerner PowerChart: the integration points, the rough edges, and what I'd tell someone starting out.
+- A systems-side post — likely something I picked up from the Georgia Tech systems track that changed how I write everyday code.
 
 If that sounds like your kind of thing, stick around. The RSS feed works, and I'm [@geekmdtravis](https://github.com/geekmdtravis) most places that matter.
