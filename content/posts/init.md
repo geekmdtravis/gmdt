@@ -5,52 +5,52 @@ lastmod: "2026-04-22"
 draft: false
 author: "Travis Nesbit"
 description: "A board-certified internist who became a software engineer introduces the blog: what it's for, who it's for, and what's coming."
-summary: "I'm a practicing physician who taught himself to code and now ships software for a living. This blog is where I write about the collision of those two worlds — and what I'm learning along the way."
+summary: "I'm a practicing physician who taught himself to code and now ships software for a living. This blog is where I get to write about that — and about pretty much everything else I find interesting in the space where medicine and computing meet."
 tags: ["introduction", "medicine", "software engineering", "health ai", "career"]
 categories: ["Introductions"]
 ---
 
-I'm an internist who spends most of my week writing code. This blog is where I work out, in public, what that actually looks like.
+I'm an internist who spends most of his week writing code. This blog is where I get to write about that — and about the other things I find interesting in medicine and computing.
 
-## What this blog is
+## What this blog is about
 
-I write about three things, and the places they touch each other:
+Three things I tend to come back to, and the overlap between them:
 
-- **Medicine** — honest notes from inside a health system that works a lot less well than its budget suggests.
-- **Software engineering** — how I build, the tools I use, and the opinions I've formed from shipping real systems rather than reading about them.
-- **AI in healthcare** — what's actually useful, what's marketing, and what the next few years probably look like from where I sit.
+- **Medicine** — the good, the frustrating, and what I think we could actually do about it.
+- **Software engineering** — the tools, the workflow, and the things I've learned from shipping real code.
+- **AI in healthcare** — what's promising, what's hype, and where I think it's all going.
 
-If you're a clinician who suspects there's a better way to spend your career, an engineer curious about healthcare's weirdness, or someone working on health AI and tired of hype posts — you're the audience. Expect specifics, code, and strong opinions loosely held.
+If you're a clinician who's wondered about a second career in tech, an engineer curious about what healthcare looks like from the inside, or somebody working in health AI — this should be your kind of place. I'll try to keep things concrete, and I'm happy to be wrong in public.
 
 ## Who I am
 
-Undergrad in biology. UC Irvine School of Medicine, class of 2013. Internal medicine residency completed in 2016. ABIM-certified, licensed by the Medical Board of California. I liked *medicine*; I did not like working inside the medical industry. So I taught myself software engineering and have been looking for ways to improve care at scale ever since.
+Undergrad in bio. Graduated UC Irvine School of Medicine in 2013. Finished internal medicine residency in 2016. I'm ABIM-certified and licensed by the Medical Board of California. I enjoyed *medicine* itself — the clinical reasoning, the patients, the puzzles — but not the medical industry. So I taught myself software engineering, and I've been looking for ways to improve medicine at scale ever since.
 
-Today I'm the lead software engineer for my team at the California Correctional Health Care Services, Headquarters, Medical Services Division — though my official state title is still **Physician & Surgeon**. My day-to-day specialty is building web applications that extend the Cerner PowerChart environment, which is exactly as interesting and as cursed as it sounds. I'm also wrapping up an MSCS at Georgia Tech, splitting the program roughly evenly between the AI and systems specializations and finalizing both, and doing health-AI research in the Madabhushi lab at Emory. I still see patients in half-day clinics to keep my clinical instincts alive; they make me a better engineer in this domain, not a worse one.
+Today I work at the California Correctional Health Care Services, Headquarters, Medical Services Division. I'm the lead software engineer for our team, though my official state title is still **Physician & Surgeon**. Most of my day-to-day is building web applications that extend the Cerner PowerChart environment — a niche I find genuinely interesting, and one I'll be writing about. On top of that, I'm wrapping up a master's in computer science at Georgia Tech, where I've split my coursework pretty evenly between the AI and systems specializations and am close to finalizing both. And I'm doing health-AI research in the Madabhushi lab at Emory. I still do half-day clinics to keep my clinical skills sharp — seeing patients makes me a better engineer in this space, not a worse one.
 
 ## What I believe, briefly
 
 ### Medicine
 
-American medicine is in a bad state despite spending more per capita than anywhere else on earth. Working inside it, that's not an abstract claim — it's a Tuesday. I'll write about the specific failure modes I see and why I think tooling, not exhortation, is the only realistic lever.
+American medicine is in a rough state despite how much we spend on it, and from the inside you feel that every day. I don't think most of what's broken is going to get fixed by more policy papers. I'll write about what I actually see, and why I'm convinced that better tooling is one of the few levers that might actually move the needle.
 
 ### AI in medicine
 
-"AI" in healthcare is a bucket term for a dozen different machine-learning techniques, each with its own failure modes. The real bottlenecks aren't model architectures; they're data access, domain expertise in the loop, and a workforce that reasonably doesn't trust what it doesn't understand. I'll write about each of these with examples from work I'm actually doing.
+When we say "AI" in healthcare, we usually mean a handful of very different machine-learning techniques. The hard problems aren't really the model architectures — they're getting access to good data, keeping clinicians meaningfully in the loop, and earning the trust of people who (reasonably) don't trust what they don't understand. I'm of the position that AI belongs in medicine, and I'll write about each of these with examples from work I'm actually doing.
 
 ### Software engineering
 
-Software engineering is one of the best jobs on earth once you get past the initial cliff, and AI-assisted tooling has made the cliff shorter without making the peak lower. My professional work lives in web applications layered on top of an EHR, but my interests run further down the stack — operating systems, distributed systems, and the lower-level machinery I'm deep in for the systems half of my MSCS. Expect posts on my setup (NeoVim, Linux, the usual heresies), the tools I actually reach for, and the occasional dive into something well below the application layer.
+Software engineering is an incredibly enjoyable field. Once you get past the early frustration the ceiling just keeps moving, and AI-assisted tooling has made the on-ramp shorter without taking anything away from the deeper end. My professional work is mostly web applications sitting on top of an EHR, but my interests go further down the stack — operating systems, distributed systems, and the lower-level machinery I'm deep in on the systems side of my MSCS. Expect posts about my setup (NeoVim, Linux, the usual suspects), the tools I actually reach for, and the occasional dive into something well below the application layer.
 
 ## What's next
 
-Posts I'm planning, in no particular order:
+A few posts I'm planning, in no particular order:
 
-- Why I use NeoVim for real work and which plugins survived the cull.
-- What a clinician-engineer actually does day-to-day inside a state health system.
-- An honest field report on the AI coding assistants I've used in anger.
-- Notes from the Madabhushi lab: what computational pathology is teaching me about medicine.
+- Why I use NeoVim for real work, and the plugins I've actually kept.
+- What a clinician-engineer does day-to-day inside a state health system.
+- An honest take on the AI coding assistants I've actually used.
+- Notes from the Madabhushi lab — what computational pathology is teaching me about medicine.
 - Building inside Cerner PowerChart: the integration points, the rough edges, and what I'd tell someone starting out.
-- A systems-side post — likely something I picked up from the Georgia Tech systems track that changed how I write everyday code.
+- Something from the systems track at Georgia Tech that's changed how I write everyday code.
 
-If that sounds like your kind of thing, stick around. The RSS feed works, and I'm [@geekmdtravis](https://github.com/geekmdtravis) most places that matter.
+If any of that sounds like your kind of thing, stick around. The RSS feed works, and I'm [@geekmdtravis](https://github.com/geekmdtravis) pretty much everywhere that matters.
