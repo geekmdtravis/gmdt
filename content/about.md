@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
 ## TL;DR - Travis Nesbit, MD, MS Candidate (CS)
 
-Undergrad in bio. Graduated UC Irvine School of Medicine in 2013. Completed an internal medicine residencey program in 2016. I maintain a valid ABIM certification and am certiifed by the Medical Board of California. I enjoyed "medicine", but not working in the medical industry. I taught myself software engineering and have been finding ways to improve medicine at scale ever since. I currently work at the California Correctional Health Care Services, Headquarters, Medical Services Division. I function as the lead software engineer for our team, though my official state title is **Physician & Surgeon**. I'm actively wrapping up a masters in computer science at Georgia Tech, and engaged in research in the health AI field at Emory in the Madabhushi lab.
+Undergrad in bio. Graduated UC Irvine School of Medicine in 2013. Completed an internal medicine residency program in 2016. I maintain a valid ABIM certification and am certified by the Medical Board of California. I enjoyed "medicine", but not working in the medical industry. I taught myself software engineering and have been finding ways to improve medicine at scale ever since. I currently work at the California Correctional Health Care Services, Headquarters, Medical Services Division. I function as the lead software engineer for our team, though my official state title is **Physician & Surgeon**. I'm actively wrapping up a masters in computer science at Georgia Tech, and engaged in research in the health AI field at Emory in the Madabhushi lab.
 
 ## Favorite Stuff
 
@@ -58,7 +58,7 @@ const days = [
 days.forEach((d) => facePalm(d));
 ```
 
-Despite significant spending, medicine is in a dire state. While I enjoy helping the patients I see when I do my half-day clinics (to keep my skills sharp), I'm not a fan of the practice and only keep up so that I can keep my clincal skills sharp as they aid my development.
+Despite significant spending, medicine is in a dire state. While I enjoy helping the patients I see when I do my half-day clinics (to keep my skills sharp), I'm not a fan of the practice and only keep up so that I can keep my clinical skills sharp as they aid my development.
 
 AI, or machine learning, may become the solution, though not necessarily the desired one. I find it fascinating, but I understand its potential intimidation.
 

@@ -1,5 +1,5 @@
 baseURL: "https://geekmd.io"
-title: geekmdtravis
+title: GeekMD
 pagination:
   paperSize: 5
 theme: papermod
@@ -15,23 +15,20 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: geekmdtravis
-  description: "Deep learning, software engineering, and medicine."
-  keywords: [
-      deep learning,
-      softare engineering,
-      medicine,
-      machine learning,
-      dl,
-      ml,
-      ai,
-      .com
-      artificial intelligence,
-      internal medicine,
-    ]
+  title: GeekMD
+  description: "Travis Nesbit (GeekMD) — deep learning, software engineering, and medicine."
+  keywords:
+    - deep learning
+    - software engineering
+    - medicine
+    - machine learning
+    - dl
+    - ml
+    - ai
+    - artificial intelligence
+    - internal medicine
+    - geekmd
   author: Travis Nesbit
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -52,26 +49,23 @@ params:
   showtoc: true
   tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+  # Asset paths are commented out until real files are added under /static.
+  # Populating them with placeholder strings emits broken <link rel=...> tags.
+  # assets:
+  #   favicon: "/favicon.ico"
+  #   favicon16x16: "/favicon-16x16.png"
+  #   favicon32x32: "/favicon-32x32.png"
+  #   apple_touch_icon: "/apple-touch-icon.png"
+  #   safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "GeekMD"
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: geekmdtravis
+    title: GeekMD
     subtitle: "Deep learning, software engineering, and medicine."
-    imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -83,8 +77,10 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "geekmdtravis"
-    Content: Deep learning, software engineering, and medicine.
+    Title: "GeekMD"
+    Content: >
+      Travis Nesbit, MD — physician turned software engineer. Writing about
+      deep learning, software engineering, and medicine.
 
   socialIcons:
     - name: x
@@ -93,13 +89,15 @@ params:
       url: "https://github.com/geekmdtravis"
     - name: linkedin
       url: "https://www.linkedin.com/in/geekmdtravis/"
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+
+  # Verification tags are left empty until real values are provided.
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: ""
+  #   bing:
+  #     SiteVerificationTag: ""
+  #   yandex:
+  #     SiteVerificationTag: ""
 
   cover:
     hidden: true # hide everywhere but not in structured data
