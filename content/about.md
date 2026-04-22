@@ -27,18 +27,18 @@ if __name__ == "__main__":
 
 ## TL;DR - Travis Nesbit, MD, MS Candidate (CS)
 
-Undergrad in bio. Graduated UC Irvine School of Medicine in 2013. Completed an internal medicine residency program in 2016. I maintain a valid ABIM certification and am certified by the Medical Board of California. I enjoyed "medicine", but not working in the medical industry. I taught myself software engineering and have been finding ways to improve medicine at scale ever since. I currently work at the California Correctional Health Care Services, Headquarters, Medical Services Division. I function as the lead software engineer for our team, though my official state title is **Physician & Surgeon**. I'm actively wrapping up a masters in computer science at Georgia Tech, and engaged in research in the health AI field at Emory in the Madabhushi lab.
+Undergrad in bio. Graduated from the UC Irvine School of Medicine in 2013. Completed an internal medicine residency at UC Irvine in 2016. I maintain a valid ABIM certification and am licensed by the Medical Board of California. I enjoyed medicine, but not working in the medical industry. I taught myself software engineering and have been finding ways to improve medicine at scale ever since. I currently work at California Correctional Health Care Services, Headquarters, Medical Services Division. I function as the lead software engineer for our team, though my official state title is **Physician & Surgeon**. I’m actively wrapping up a master’s in computer science at Georgia Tech and doing health AI research at Emory in the Madabhushi lab.
 
 ## Favorite Stuff
 
 1. Hobby - Brazilian Jiu Jitsu
-2. Video game - Starcraft 2
+2. Video game - StarCraft II
 3. Food - Sushi
 4. Career - SWE > MD
 5. Code editor - NeoVim
-6. Programming language - Don't have one, but I use Python and TypeScript the most.
-7. Operating System - Linux pretty much exclusively; my setup is based on Hyprland on Arch.
-8. Linux Distribution - Arch Linux.
+6. Programming language - Don’t really have one, but I use Python and TypeScript the most.
+7. Operating system - Linux pretty much exclusively
+8. Linux distribution - Arch Linux; Hyprland as my compositor. Lots of FOSS tools and several custom tools supporting my workflows.
 
 ## Thoughts on Other Stuff
 
@@ -58,18 +58,15 @@ const days = [
 days.forEach((d) => facePalm(d));
 ```
 
-Despite significant spending, medicine is in a dire state. While I enjoy helping the patients I see when I do my half-day clinics (to keep my skills sharp), I'm not a fan of the practice and only keep up so that I can keep my clinical skills sharp as they aid my development.
+Despite significant spending, medicine is in a dire state. While I enjoy helping the patients I see during my half-day clinics (mostly to keep my skills sharp), I’m not a fan of the practice environment and largely keep up because maintaining clinical ability helps inform what I build.
 
-AI, or machine learning, may become the solution, though not necessarily the desired one. I find it fascinating, but I understand its potential intimidation.
+Regardless, medicine needs a lot of help. That’s a complex discussion, but IMO technology is where the bulk of our solutions lie. Smarter workflows, more robust systems, greater interoperability, “AI,” and more are likely to be essential.
 
 ### AI (in Medicine)
 
-We say “AI,” but we mean many forms of machine learning. Regardless, AI has problems in healthcare. First, data is hard to get. While AI model architecture matters, data drives its effectiveness. We need to revisit medical data laws for more data to fill human gaps with technology. Second, domain expertise is crucial for model creation and training, but few clinicians are involved. Third, people fear AI because they don’t understand it.
-
-I am of the position that AI belongs in medicine, and I am doing what I can to improve affordable access to high value care all over the world through technological innovation in the health AI space.
+We say “AI,” but we usually mean many forms of machine learning. Regardless, AI has real problems in healthcare. TL;DR - first, data is hard to get. Model architecture matters, but data drives effectiveness. We need to revisit medical data laws if we want enough data to use technology to fill human gaps. Second, domain expertise is crucial for model creation and training, but too few clinicians are involved. Third, people fear AI because they don’t understand it. That will likely take time to fix, more so than outreach.
 
 ### Software Engineering
 
-Software engineering is an incredibly enjoyable field! Once you gain some proficiency, the possibilities are endless. And, there’s always something new and exciting to learn. In my opinion, AI has further enhanced the appeal of software engineering. It has streamlined much of the repetitive work and serves as a versatile reference you can access immediately and in context. My day-to-day revolves around agentic coding tools like Claude Code and OpenCode, but the broader AI ecosystem — frontier chat models, local models, embeddings, vision, and everything in between — now touches nearly every part of the workflow.
+Software engineering is an incredibly enjoyable field. Once you gain some proficiency, the possibilities are endless, and there’s always something new and exciting to learn. In my opinion, AI has made software engineering even more appealing. It has streamlined a lot of the repetitive work and serves as a versatile reference you can access immediately and in context. My day-to-day includes agentic coding tools like Claude Code and OpenCode, frontier chat models, local models, embeddings, vision, and everything in between.
 
-However, I believe that true greatness in software engineering requires a genuine passion for the field and its intricacies. I firmly believe that individuals who embrace configurable environments that allow for close interaction with the underlying tooling of their development environment will not only become better software engineers but also faster and more efficient ones.
