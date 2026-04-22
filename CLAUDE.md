@@ -12,9 +12,12 @@ a git submodule at `themes/papermod`.
 
 - Pushing to `main` triggers `.github/workflows/hugo.yml`, which builds
   with `hugo --minify` (extended, latest) and deploys to GitHub Pages.
-- The custom domain `geekmd.io` is configured in the repo's Pages
-  settings. If a `CNAME` file is needed in `static/`, add it there —
-  `public/` is ignored by git.
+- Custom domain: `static/CNAME` contains `geekmd.io`. Hugo copies it
+  into `public/` on build; the Actions-based Pages deploy reads the
+  custom domain from that file in the artifact. Do not delete it —
+  without it, Pages silently clears the custom-domain setting on the
+  next deploy and starts serving the default `*.github.io` cert
+  (which breaks HTTPS for `geekmd.io`). `public/` is gitignored.
 - Do not push directly to `main` from a Claude session unless the user
   asks. Default branch for Claude work is
   `claude/create-geekmd-website-7kDQK`.
