@@ -1,80 +1,54 @@
 ---
-title: "Introduction"
-date: 2025-05-16T20:42:42-07:00
+title: "Starting Over: Notes From a Physician Learning to Ship Software"
+date: "2026-04-22T09:00:00-07:00"
+lastmod: "2026-04-22"
 draft: false
-description: "A brief introduction to the author of this website and blog, Travis Nesbit."
-tags:
-  ["post", "introduction", "hobbies", "medicine", "software engineering", "ai"]
-categories: ["Introductions"]
 author: "Travis Nesbit"
-lastmod: 2025-05-16
+description: "A board-certified internist who became a software engineer introduces the blog: what it's for, who it's for, and what's coming."
+summary: "I'm a practicing physician who taught himself to code and now ships software for a living. This blog is where I write about the collision of those two worlds — and what I'm learning along the way."
+tags: ["introduction", "medicine", "software engineering", "health ai", "career"]
+categories: ["Introductions"]
 ---
 
-<!-- --- -->
-<!-- date: "2025-05-16T20:42:42-07:00" -->
-<!-- draft: true -->
-<!-- title: "Introduction" -->
-<!-- tags: -->
-<!--   - introduction -->
-<!-- categories: -->
-<!--   - introduction -->
-<!-- --- -->
+I'm an internist who spends most of my week writing code. This blog is where I work out, in public, what that actually looks like.
 
-```python
-def main():
-    print("Hello, visitors!")
+## What this blog is
 
-if __name__ == "__main__":
-    main()
-```
+I write about three things, and the places they touch each other:
 
-## TL;DR - Travis Nesbit, MD, MS Candidate (CS)
+- **Medicine** — honest notes from inside a health system that works a lot less well than its budget suggests.
+- **Software engineering** — how I build, the tools I use, and the opinions I've formed from shipping real systems rather than reading about them.
+- **AI in healthcare** — what's actually useful, what's marketing, and what the next few years probably look like from where I sit.
 
-Undergrad in bio. Graduated UC Irvine School of Medicine in 2013. Completed an internal medicine residency program in 2016. I maintain a valid ABIM certification and am certified by the Medical Board of California. I enjoyed "medicine", but not working in the medical industry. I taught myself software engineering and have been finding ways to improve medicine at scale ever since. I currently work at the California Correctional Health Care Services, Headquarters, Medical Services Division. I function as the lead software engineer for our team, though my official state title is **Physician & Surgeon**. I'm actively wrapping up a masters in computer science at Georgia Tech, and engaged in research in the health AI field at Emory in the Madabhushi lab.
+If you're a clinician who suspects there's a better way to spend your career, an engineer curious about healthcare's weirdness, or someone working on health AI and tired of hype posts — you're the audience. Expect specifics, code, and strong opinions loosely held.
 
-## Favorite Stuff
+## Who I am
 
-1. Hobby - Brazilian Jiu Jitsu
-2. Video game - Starcraft 2
-3. Food - Sushi
-4. Career - SWE > MD
-5. Code editor - NeoVim ([my starter](https://github.com/geekmdtravis/nvchad-starter-personalized))
-6. Programming language - Don't have one, but I use Python and TypeScript the most.
-7. Operating System - Linux for development, MacOs for daily driving.
-8. Linux Distribution - Arch Linux for ricing, Pop_OS! for out-of-the-box goodness.
+Undergrad in biology. UC Irvine School of Medicine, class of 2013. Internal medicine residency completed in 2016. ABIM-certified, licensed by the Medical Board of California. I liked *medicine*; I did not like working inside the medical industry. So I taught myself software engineering and have been looking for ways to improve care at scale ever since.
 
-## Thoughts on Other Stuff
+Today I'm the lead software engineer for my team at the California Correctional Health Care Services, Headquarters, Medical Services Division — though my official state title is still **Physician & Surgeon**. I'm wrapping up an MSCS at Georgia Tech and doing health-AI research in the Madabhushi lab at Emory. I still see patients in half-day clinics to keep my clinical instincts alive; they make me a better engineer in this domain, not a worse one.
+
+## What I believe, briefly
 
 ### Medicine
 
-```tsx
-const days = [
-  "monday",
-  "tuesday",
-  "wednesday",
-  "thursday",
-  "friday",
-  "saturday",
-  "sunday",
-];
+American medicine is in a bad state despite spending more per capita than anywhere else on earth. Working inside it, that's not an abstract claim — it's a Tuesday. I'll write about the specific failure modes I see and why I think tooling, not exhortation, is the only realistic lever.
 
-days.forEach((d) => facePalm(d));
-```
+### AI in medicine
 
-Despite significant spending, medicine is in a dire state. While I enjoy helping the patients I see when I do my half-day clinics (to keep my skills sharp), I'm not a fan of the practice and only keep up so that I can keep my clinical skills sharp as they aid my development.
+"AI" in healthcare is a bucket term for a dozen different machine-learning techniques, each with its own failure modes. The real bottlenecks aren't model architectures; they're data access, domain expertise in the loop, and a workforce that reasonably doesn't trust what it doesn't understand. I'll write about each of these with examples from work I'm actually doing.
 
-AI, or machine learning, may become the solution, though not necessarily the desired one. I find it fascinating, but I understand its potential intimidation.
+### Software engineering
 
-### AI (in Medicine)
+Software engineering is one of the best jobs on earth once you get past the initial cliff, and AI-assisted tooling has made the cliff shorter without making the peak lower. I'll write about my setup (NeoVim, Linux, the usual heresies), the tools I actually reach for, and the mistakes I keep making so you don't have to.
 
-We say “AI,” but we mean many forms of machine learning. Regardless, AI has problems in healthcare. First, data is hard to get. While AI model architecture matters, data drives its effectiveness. We need to revisit medical data laws for more data to fill human gaps with technology. Second, domain expertise is crucial for model creation and training, but few clinicians are involved. Third, people fear AI because they don’t understand it.
+## What's next
 
-I am of the position that AI belongs in medicine, and I am doing what I can to improve affordable access to high value care all over the world through technological innovation in the health AI space.
+Posts I'm planning, in no particular order:
 
-### Software Engineering
+- Why I use NeoVim for real work and which plugins survived the cull.
+- What a clinician-engineer actually does day-to-day inside a state health system.
+- An honest field report on the AI coding assistants I've used in anger.
+- Notes from the Madabhushi lab: what computational pathology is teaching me about medicine.
 
-Software engineering is an incredibly enjoyable field! Once you gain some proficiency, the possibilities are endless. And, there’s always something new and exciting to learn. In my opinion, AI has further enhanced the appeal of software engineering. It has streamlined much of the repetitive work and serves as a versatile reference that you can access immediately and in context, thanks to tools like Aider, Cline, CoPilot, Q, and so on.
-
-However, I believe that true greatness in software engineering requires a genuine passion for the field and its intricacies. I firmly believe that individuals who embrace configurable environments that allow for close interaction with the underlying tooling of their development environment will not only become better software engineers but also faster and more efficient ones.
-
-In essence, I advocate for choosing Linux as your operating system whenever possible and opting for code editors like VSCode, NeoVim, and so on instead of Integrated Development Environments (IDEs).
+If that sounds like your kind of thing, stick around. The RSS feed works, and I'm [@geekmdtravis](https://github.com/geekmdtravis) most places that matter.
