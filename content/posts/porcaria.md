@@ -10,7 +10,7 @@ tags: ["linux", "hyprland", "voice", "ai", "python", "tools"]
 categories: ["Tools"]
 ---
 
-I spend most of my day on an Arch/Hyprland workstation with a GPU, and a second chunk of it on a travel laptop. I wanted a dictation setup that felt native to both — press a key, talk, get text — and nothing I tried quite fit my workflow. I wanted to marry(largely) local models with the highly composable Hyprland environment so that time-saving, quality-improving behaviors are a simple keybind a way. So I built [porcaria](https://github.com/geekmdtravis/porcaria).
+I spend most of my day on an Arch/Hyprland workstation with a GPU, and a second chunk of it on a travel laptop. I wanted a dictation setup that felt native to both — press a key, talk, get text — and nothing I tried quite fit my workflow. I wanted to marry (largely) local models with the highly composable Hyprland environment so that time-saving, quality-improving behaviors are a simple keybind a way. So I built [porcaria](https://github.com/geekmdtravis/porcaria).
 
 ## What it is
 
