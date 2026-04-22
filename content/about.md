@@ -4,7 +4,7 @@ date: 2025-05-16T20:42:42-07:00
 draft: false
 description: "A brief introduction to the author of this website and blog, Travis Nesbit."
 author: "Travis Nesbit"
-lastmod: 2025-05-16
+lastmod: 2026-04-22
 ---
 
 <!-- --- -->
@@ -35,10 +35,10 @@ Undergrad in bio. Graduated UC Irvine School of Medicine in 2013. Completed an i
 2. Video game - Starcraft 2
 3. Food - Sushi
 4. Career - SWE > MD
-5. Code editor - NeoVim ([my starter](https://github.com/geekmdtravis/nvchad-starter-personalized))
+5. Code editor - NeoVim
 6. Programming language - Don't have one, but I use Python and TypeScript the most.
-7. Operating System - Linux for development, MacOs for daily driving.
-8. Linux Distribution - Arch Linux for ricing, Pop_OS! for out-of-the-box goodness.
+7. Operating System - Linux pretty much exclusively; my setup is based on Hyprland on Arch.
+8. Linux Distribution - Arch Linux.
 
 ## Thoughts on Other Stuff
 
@@ -70,8 +70,6 @@ I am of the position that AI belongs in medicine, and I am doing what I can to i
 
 ### Software Engineering
 
-Software engineering is an incredibly enjoyable field! Once you gain some proficiency, the possibilities are endless. And, there’s always something new and exciting to learn. In my opinion, AI has further enhanced the appeal of software engineering. It has streamlined much of the repetitive work and serves as a versatile reference that you can access immediately and in context, thanks to tools like Aider, Cline, CoPilot, Q, and so on.
+Software engineering is an incredibly enjoyable field! Once you gain some proficiency, the possibilities are endless. And, there’s always something new and exciting to learn. In my opinion, AI has further enhanced the appeal of software engineering. It has streamlined much of the repetitive work and serves as a versatile reference you can access immediately and in context. My day-to-day revolves around agentic coding tools like Claude Code and OpenCode, but the broader AI ecosystem — frontier chat models, local models, embeddings, vision, and everything in between — now touches nearly every part of the workflow.
 
 However, I believe that true greatness in software engineering requires a genuine passion for the field and its intricacies. I firmly believe that individuals who embrace configurable environments that allow for close interaction with the underlying tooling of their development environment will not only become better software engineers but also faster and more efficient ones.
-
-In essence, I advocate for choosing Linux as your operating system whenever possible and opting for code editors like VSCode, NeoVim, and so on instead of Integrated Development Environments (IDEs).
