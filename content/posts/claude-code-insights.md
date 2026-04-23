@@ -16,13 +16,13 @@ I was rooting around in Claude Code the other day — part curiosity, part procr
 
 The short version: insights is a running readout of how you're using Claude. Which models you're reaching for, which tools get hammered, how your sessions are shaped, where your time is going. The less-short version is that it's the first dashboard I've ever looked at and thought, *oh — that's me.*
 
-It's one thing to *feel* like you've been leaning hard on Sonnet this week. It's another to see the ratio next to your Opus calls and realize you've been reflexively picking the fast model even when the task probably wanted the smart one. Or the other way around: realizing you've been paying the Opus premium for tasks that Haiku would have eaten without blinking.
+Case in point: I've been running on Opus exclusively. Haven't touched Sonnet or Haiku. I'm on the 20x Max plan, so dollars never enter the picture — no API meter ticking, no line-item guilt. Insights doesn't care about that. It shows me *behavior*, and seeing my model usage sitting at 100% Opus in black and white was its own kind of feedback. Not "you're overspending," but "you've never even auditioned the other two." That's a different, more interesting question.
 
 ## Why it's quietly great
 
-Most "usage stats" in dev tools are billing dashboards dressed up in nicer fonts. This isn't that. A few things make it land:
+Most "usage stats" in dev tools are billing dashboards dressed up in nicer fonts. On a Max plan, those are useless to me — I'm not watching a meter. A few things make insights land instead:
 
-- **It's behavioral, not just financial.** It tells you *what you did*, not just *what it cost*. There's a difference between "you spent $X this week" and "you started 40 sessions and 12 of them were under two turns."
+- **It's behavioral, not financial.** It tells you *what you did*, not *what it cost*. On a subscription plan that distinction is the whole game. "You started 40 sessions and 12 of them were under two turns" is something I can actually do something with.
 - **It surfaces patterns you don't notice in the moment.** The one-turn sessions were the tell for me. I was using Claude like a search engine half the time — which is fine, but it made me think about whether I was framing those questions in a way that could actually pay off.
 - **It closes a feedback loop that's usually invisible.** You write code with an AI all day, you ship things, life moves on. Insights is the first tool that let me look back at a week of work and ask, *was any of that shaped the way I thought it was?*
 
