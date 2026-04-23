@@ -38,4 +38,4 @@ That's the part that surprised me. I went in expecting a dashboard and walked ou
 
 If you use Claude Code occasionally, insights is a curiosity. If you use it every day — the way I do, the way it's woven into my editor and my shell and my brain at this point — it's a genuinely useful feedback loop. The kind of thing you glance at on a Friday, notice something, and work a little smarter the following week.
 
-It's not the flashiest feature Anthropic shipped this cycle. It might be my favorite, though. Go poke at it.
+It's not the flashiest feature Anthropic shipped this cycle, but it earned its spot in my weekly routine. Go poke at it.
