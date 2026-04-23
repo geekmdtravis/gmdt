@@ -28,12 +28,11 @@ Most "usage stats" in dev tools are billing dashboards dressed up in nicer fonts
 
 ## What I changed because of it
 
-Two things, immediately:
+The real value wasn't the stats — it was the suggestions. Based on what insights saw me doing, Claude pointed me at a handful of skills and hooks that slot directly into my workflow. Not generic "here are some features you haven't tried" filler; actual recommendations that matched the patterns I was already running. I'm adopting those.
 
-1. **I stopped defaulting to the biggest model.** Seeing my tool-use patterns made it obvious that a lot of my sessions are grep, read, edit, done. That doesn't need a frontier model; it needs a fast one with decent judgment. I've been explicitly reaching for Haiku more, and honestly — no regrets.
-2. **I started being more deliberate about session boundaries.** My shortest sessions were noisy — half-formed questions, context I didn't set up, me bailing when the first response wasn't quite right. Now I either commit to the session or I don't start it. Fewer, better turns.
+The follow-on change is on my end: I'm going back through the repositories I work in and adjusting their structure to accommodate those skills and hooks properly. If a skill expects certain files in certain places, or a hook wants something to grep against, then the repo should meet it halfway. It's a small tax up front for a setup that pays me back every session.
 
-Neither of those is a revelation on its own. The point is I wouldn't have made either change without the data in front of me.
+That's the part that surprised me. I went in expecting a dashboard and walked out with a small list of concrete, actionable changes — both to how I use Claude and to how my projects are laid out.
 
 ## Who should care
 
