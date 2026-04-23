@@ -1,6 +1,6 @@
 ---
 title: "Claude Code Insights: The Mirror I Didn't Know I Needed"
-date: "2026-04-23T10:00:00-07:00"
+date: "2026-04-23T00:15:00-07:00"
 lastmod: "2026-04-23"
 draft: false
 author: "Travis Nesbit"
